@@ -46,31 +46,6 @@ Only these two time columns are retained in the updated Excel output.
 
 ---
 
-## How to run the script
-
-1. Open R or RStudio
-2. Install required packages (once):
-
-```r
-install.packages(c(
-  "dplyr", "tidyr", "stringr", "readxl",
-  "openxlsx", "tibble", "tcltk"
-))
-
-3. Run the pipeline:
-
-source("ECG_Preprocessing_InjectionAligned_Splitting_and_Summary.R")
-
-4. When prompted, select:
-
-The folder containing raw ECG CSV files
-The Excel file with injection times
-The output folder
-
-5. The pipeline then runs automatically from start to finish.
-
----
-
 ## Cleaned summary outputs
 
 The final Excel files:
@@ -98,7 +73,7 @@ ECG feature data were aligned to the time of drug injection and split into basel
 
 ---
 
-##Notes
+## Notes
 
 The pipeline assumes consistent feature naming across CSV files
 Aligned-by-column datasets are intended for time-course analysis
