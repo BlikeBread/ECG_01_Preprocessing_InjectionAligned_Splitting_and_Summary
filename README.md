@@ -24,37 +24,6 @@ All file paths are selected interactively via GUI dialogs.
 
 ---
 
-## Output folder structure
-
-The script generates the following structure inside the selected output directory:
-
-Output/
-├── Split_Files/
-│ ├── Baseline/
-│ ├── After_Injection/
-│ └── After_Injection_2min/
-│
-├── Split_By_Columns/
-│ ├── Baseline/
-│ │ ├── Aligned_by_Columns/
-│ │ └── Summary_Averages_Aligned_Baseline.csv
-│ │
-│ ├── After_Injection/
-│ │ ├── Aligned_by_Columns/
-│ │ └── Summary_Averages_Aligned_After_Injection.csv
-│ │
-│ └── After_Injection_2min/
-│ ├── Aligned_by_Columns/
-│ └── Summary_Averages_Aligned_After_Injection_2min.csv
-│
-├── Summary_Clean_Baseline.xlsx
-├── Summary_Clean_After_Injection.xlsx
-├── Summary_Clean_After_Injection_2min.xlsx
-│
-└── Updated_Injection_Times_with_2min_only.xlsx
-
----
-
 ## Required inputs
 
 ### 1. Raw ECG CSV files
